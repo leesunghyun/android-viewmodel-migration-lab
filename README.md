@@ -195,9 +195,9 @@ Only `app/` is built in the first alpha.
 ## Next milestones (planned, v0.2)
 
 - [x] Replace demo placeholder with real screen recording (`docs/images/demo.gif`)
-- [ ] Improve Article detail validation UX
+ - [x] Improve Article detail validation UX
 - [ ] Add before/after diagram for v0.2 release docs
-- [ ] Improve connected test coverage for back-without-save and invalid selection scenarios
+- [x] Improve connected test coverage for back-without-save and invalid selection scenarios
 
 ## Recently completed after v0.1.0
 
