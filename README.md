@@ -147,6 +147,13 @@ Manual smoke check:
   - [Release Guide: v0.2.0-oss-alpha.1](docs/release-guide-v0.2.0-oss-alpha.1.md)
 - APK is provided as a sample debug artifact for manual smoke testing (not production release).
 
+## Codex for OSS readiness
+
+- [Readiness Spec](docs/superpowers/plans/2026-06-27-codex-for-oss-readiness-spec.md)
+- [Codex Submission Package](docs/codex-for-oss-application-package.md) (prepare-ready draft)
+- [Codex Strategy](docs/codex-for-oss.md)
+- [Metrics check script](scripts/codex-metrics.sh)
+
 For full release details and run verification commands, see:
 - [Release Notes](docs/release-notes-v0.1.0-oss-alpha.1.md)
 - [Release Guide](docs/release-guide-v0.1.0-oss-alpha.1.md)
