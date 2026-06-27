@@ -142,6 +142,9 @@ Manual smoke check:
 ## Release status
 
 - First OSS alpha release: [v0.1.0-oss-alpha.1](https://github.com/leesunghyun/android-viewmodel-migration-lab/releases/tag/v0.1.0-oss-alpha.1)
+- v0.2 alpha preparation: `v0.2.0-oss-alpha.1` notes/guide are prepared
+  - [Release Notes: v0.2.0-oss-alpha.1](docs/release-notes-v0.2.0-oss-alpha.1.md)
+  - [Release Guide: v0.2.0-oss-alpha.1](docs/release-guide-v0.2.0-oss-alpha.1.md)
 - APK is provided as a sample debug artifact for manual smoke testing (not production release).
 
 For full release details and run verification commands, see:
@@ -168,8 +171,9 @@ Only `app/` is built in the first alpha.
 - [Compose UI Guide](docs/05-compose-ui.md)
 - [Release Notes: v0.1.0-oss-alpha.1](docs/release-notes-v0.1.0-oss-alpha.1.md)
 - [Release Guide: v0.1.0-oss-alpha.1](docs/release-guide-v0.1.0-oss-alpha.1.md)
-- [Roadmap: v0.2.0](docs/roadmap-v0.2.0.md)
 - [Release Notes: v0.2.0-oss-alpha.1](docs/release-notes-v0.2.0-oss-alpha.1.md)
+- [Release Guide: v0.2.0-oss-alpha.1](docs/release-guide-v0.2.0-oss-alpha.1.md)
+- [Roadmap: v0.2.0](docs/roadmap-v0.2.0.md)
 - [Migration Task Plan (source of truth)](docs/oss-remake-task-plan.md)
 - [Codex for OSS](docs/codex-for-oss.md)
 

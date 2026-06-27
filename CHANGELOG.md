@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Added article detail validation UX (required title/body checks + inline feedback + disabled save when invalid).
+- Added reducer invalid-id guard test coverage.
+- Expanded compose UI smoke tests for validation and back-without-save behavior.
+- Prepared v0.2 release assets: `docs/release-guide-v0.2.0-oss-alpha.1.md`, `docs/release-notes-v0.2.0-oss-alpha.1.md`.
+
+### Known limitations
+
+- v0.2 release is prepared but tag/release has not been published yet.
+
 ## v0.1.0-oss-alpha.1 - 2026-06-07
 
 ### Added
