@@ -1,8 +1,12 @@
-# Bug Report
+---
+name: Bug report
+about: Report functional issues with reproduction details
+labels: [bug]
+---
 
 ## What happened?
 
-Describe the problem.
+Describe the problem clearly.
 
 ## Steps to reproduce
 
@@ -21,10 +25,24 @@ What happened instead?
 ## Environment
 
 - OS:
+- Android version:
 - Android Studio version:
 - JDK version:
-- Device or emulator:
+- Module(s):
+- Device / emulator:
+- Commit / PR URL:
 
-## Logs or screenshots
+## Logs and evidence
 
-Paste logs or screenshots if available.
+- Error logs or screenshots:
+- Relevant snippets:
+
+## Severity
+
+- [ ] low
+- [ ] medium
+- [ ] high
+
+## Notes
+
+- If this affects migration guidance, mention the relevant doc section.

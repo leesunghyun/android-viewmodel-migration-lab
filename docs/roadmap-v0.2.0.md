@@ -31,6 +31,28 @@
 - v0.2 릴리스 태그 정책 정리 및 문서 보강
 - `v*` 태그 릴리스 가이드 일관화
 - 필요 시 Android CI에서 Gradle cache/워크플로우 분리 단계 검토
+- [x] Before/After 다이어그램 추가 (Legacy → Compose + StateFlow)
+
+### 5) v0.2 이전/이후 비교
+
+```mermaid
+flowchart LR
+    subgraph LegacyBefore["Legacy (v0.0.0)"]
+        A["Legacy Activity + AAC 기반 화면"]
+        B["전역 mutable state"]
+        C["수동 smoke 점검"]
+    end
+    subgraph ModernAfter["Modern (v0.2)"]
+        D["Compose 화면 기반 UI"]
+        E["Article 도메인 + Reducer"]
+        F["StateFlow + ViewModel"]
+        G["Reducer + UI smoke 테스트"]
+        H["Android CI + release workflow"]
+    end
+    A -->|"리메이크 시작"| D
+    B -->|"단일 소스 상태"| F
+    D --> E --> F --> G --> H
+```
 
 ## 완료 조건 (Definition of Done)
 

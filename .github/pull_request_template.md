@@ -1,8 +1,8 @@
 ## Summary
 
-Explain what changed.
+Explain what changed and why.
 
-## Migration step
+## Scope
 
 - [ ] Documentation
 - [ ] Build / Gradle
@@ -13,14 +13,36 @@ Explain what changed.
 - [ ] Tests
 - [ ] CI
 
+## Migration step
+
+Describe the migration unit this PR solves.
+
 ## How I tested this
 
 - [ ] I ran `./gradlew test`
 - [ ] I ran `./gradlew assembleDebug`
-- [ ] I checked the app manually
+- [ ] I manually checked app behavior
 - [ ] Not applicable: docs-only change
 
-## Notes
+### Environment
 
-- If any test/build command is not run, explain why.
-- Write any failure reason, known issue, or follow-up task here.
+- Android Studio:
+- JDK:
+- Device/Emulator:
+
+### Command results
+
+Paste output summary:
+
+- `./gradlew test`: 
+- `./gradlew assembleDebug`: 
+- Manual test steps:
+
+## Files changed
+
+- 
+
+## Notes for reviewers
+
+- Any known risks:
+- Any follow-up tasks:

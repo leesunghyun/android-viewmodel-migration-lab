@@ -1,0 +1,11 @@
+# Core project ownership
+* @leesunghyun
+
+# Critical paths
+/docs/           @leesunghyun
+/app/            @leesunghyun
+/.github/        @leesunghyun
+/.gitattributes  @leesunghyun
+/LICENSE         @leesunghyun
+/README.md       @leesunghyun
+/CHANGELOG.md    @leesunghyun
