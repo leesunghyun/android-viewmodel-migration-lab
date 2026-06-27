@@ -51,3 +51,23 @@ gh release create v0.2.0-oss-alpha.1 \
 - 테스트: 잘못된 선택값 방어 + Back-without-save 플로우 커버
 - UI/동영상: 데모 GIF가 실제 앱 흐름으로 교체됨
 - 문서: v0.2 체크리스트 및 릴리스 링크 정합성 정리
+
+## 6) 릴리스 증빙 체크리스트 (권장)
+
+릴리스 준비자는 아래 항목을 확인하고 `docs/release-notes-v0.2.0-oss-alpha.1.md` 또는 릴리스 본문에 기재합니다.
+
+- `./gradlew test` 실행 결과
+- `./gradlew assembleDebug` 실행 결과
+- `docs/release-notes-v0.2.0-oss-alpha.1.md` 존재 확인
+- `docs/codex-for-oss-application-package.md` 존재 확인
+- `CHANGELOG.md`의 `Unreleased` 반영 상태
+- 릴리스 산출물:
+  - v0.2.0-oss-alpha.1 태그
+  - GitHub Release 상태
+
+참고용 예시 출력:
+
+```bash
+gh api repos/leesunghyun/android-viewmodel-migration-lab/releases \
+  --paginate --jq '.[] | select(.tag_name == \"v0.2.0-oss-alpha.1\") | {tag_name, html_url}'
+```

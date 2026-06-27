@@ -10,6 +10,11 @@
 - Prepared v0.2 release assets: `docs/release-guide-v0.2.0-oss-alpha.1.md`, `docs/release-notes-v0.2.0-oss-alpha.1.md`.
 - Normalized `LICENSE` wording to parser-friendly Apache-2.0 baseline for repository metadata reliability.
 
+### Changed
+
+- Strengthened README and Codex-facing docs for submission readiness evidence.
+- Added maintainer governance documents and stricter issue/PR templates.
+
 ### Known limitations
 
 - v0.2 release is prepared but tag/release has not been published yet.
