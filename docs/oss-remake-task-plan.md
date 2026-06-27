@@ -2117,6 +2117,8 @@ This is the first OSS alpha release of Android ViewModel Migration Lab.
 
 ## 17. Codex for OSS 신청 준비 문구
 
+- `docs/codex-for-oss-application-package.md`에 제출용 최종 문구를 정리해 둔다.
+
 ### 17.1 Repository description
 
 ```text
