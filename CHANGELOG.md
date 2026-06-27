@@ -8,6 +8,7 @@
 - Added reducer invalid-id guard test coverage.
 - Expanded compose UI smoke tests for validation and back-without-save behavior.
 - Prepared v0.2 release assets: `docs/release-guide-v0.2.0-oss-alpha.1.md`, `docs/release-notes-v0.2.0-oss-alpha.1.md`.
+- Normalized `LICENSE` wording to parser-friendly Apache-2.0 baseline for repository metadata reliability.
 
 ### Known limitations
 
